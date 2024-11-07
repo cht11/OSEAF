@@ -5,11 +5,35 @@ Code framework and Partial experimental data of paper: BAFMA:Dynamic and Static 
 
 
 
-相关文件夹描述如下：
+The folders are described as follows:
 
-## 1 VirusTotal_Report
+## 1 BAFMA_Code_Framework
 
-该文件夹记录**VT检测结果**和**相关python脚本**。
+This folder contains the code framework for BAFMA：
 
-* VT检测结果包含140个样本的VT report报告（json格式），以及汇总结果的csv文件`malware_adversarial_result.csv`。
-* 代码中的VT密钥`apikey`和代理网址`proxy`需要自行设置
+* `\ExeBypass.py` is a BAFMA framework interface，`\call_ExeBypass.py` is Call examples for interfaces。
+
+
+
+To prevent abuse of the attack framework, we will retain some code.
+
+* The Anti-Sandbox function needs to be built by itself.
+  * The Anti-Sandbox code in `\SourceCodeFile\checkSandBox.h` needs to be added on its own
+
+* The encryption and decryption function needs to be built by itself.
+  * The `encrypt` function in `NeedEncry.py` needs to be added by itself, corresponding to `\SourceCodeFile\decrypt.h`
+  * The `decrypt` function in `\SourceCodeFile\decrypt.h` needs to be added by itself, corresponding to `NeedEncry.py`
+
+
+* The compilation command needs to be built by itself
+  * `\SourceCodeFile\building_cl.bat` and `\SourceCodeFile\building_link.bat` represent compile and link commands, respectively, and need to **choose one compiler** to add compile and link commands
+
+
+
+
+## 2 VirusTotal_Report
+
+This folder records **VT test results ** and **related python scripts **.
+
+* The VT test results contain the VT report report (json format) for 140 samples, and the csv file 、`malware_adversarial_result.csv` that summarizes the results.
+* The VT key `apikey` and proxy URL `proxy` in the code need to be set by themselves
