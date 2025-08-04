@@ -1,5 +1,5 @@
-# BAFMA-Dynamic-and-Static-Black-box-Adversarial-Attack-Framework-Based-on-Malware-Architecture
-Code framework and Partial experimental data of paper: BAFMA:Dynamic and Static Black-box Adversarial Attack Framework Based on Malware Architecture
+# OSEAF: A Robust One-Shot Environment-Aware Framework for Malware Detection Evasion
+Code framework and Partial experimental data of paper: OSEAF: A Robust One-Shot Environment-Aware Framework for Malware Detection Evasion
 
 
 
@@ -7,11 +7,11 @@ Code framework and Partial experimental data of paper: BAFMA:Dynamic and Static 
 
 The folders are described as follows:
 
-## 1 BAFMA_Code_Framework
+## 1 OSEAF_Code_Framework
 
-This folder contains the code framework for BAFMA：
+This folder contains the code framework for OSEAF：
 
-* `\ExeBypass.py` is a BAFMA framework interface，`\call_ExeBypass.py` is Call examples for interfaces。
+* `\ExeBypass.py` is a OSEAF framework interface，`\call_ExeBypass.py` is Call examples for interfaces。
 
 
 
