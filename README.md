@@ -26,14 +26,14 @@ To prevent abuse of the attack framework, we will retain some code.
 
 
 * The compilation command needs to be built by itself
-  * `\SourceCodeFile\building_cl.bat` and `\SourceCodeFile\building_link.bat` represent compile and link commands, respectively, and need to **choose one compiler** to add compile and link commands
+  * `\SourceCodeFile\building_cl.bat` and `\SourceCodeFile\building_link.bat` represent compile and link commands, respectively, and need to **choose one compiler** to add compile and link commands. (Our experiment chose Microsoft's cl compiler)
 
 
 
 
 ## 2 VirusTotal_Report
 
-This folder records **[VirusTotal](https://www.virustotal.com/gui/home/upload) report results ** and **related python scripts **.
+This folder records **[VirusTotal](https://www.virustotal.com/gui/home/upload) report results** and **related python scripts**.
 
 * The VT test results contain the VT report report (json format) for 140 samples, and the csv file 、`malware_adversarial_result.csv` that summarizes the results.
 * The VT key `apikey` and proxy URL `proxy` in the code need to be set by themselves
